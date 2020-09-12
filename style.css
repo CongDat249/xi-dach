@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.result{
+    position: relative;
+    top: -550px;
+    font-size: 300px;
+    color: red;
+    font-weight: bolder;
+}
+
+.board{
+    margin-top: 10px;
+    height: 600px;
+    background: green;
+    border: 20px solid rgb(185, 138, 19);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.machine-board, .user-board{
+    width: 50%;
+    border-right: 3px solid black;
+}
+.control{
+    margin: 10px;
+}
+.control button{
+    width: 80px;
+    height: 40px;
+    background: lightsalmon;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#hit{
+    background: lightgoldenrodyellow;
+}
+
+#stand{
+    background: lightskyblue;
+}
+
+img{
+    width: 100px;
+}
+
+#machine-sum, #user-sum{
+    color: red;
+}
+
+
+@media only screen and (max-width: 800px){
+img{
+    width: 50px;
+}
+.result{
+    font-size: 70px;
+}
+}
